@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Galgje</title>
+	<link rel="stylesheet" type="text/css" href="game.css">
+</head>
+<body class="container">
+	<div>
+		<h1>4-LETTER GALGJE</h1>
+	</div>
+	
+	<div>
+		<h2><span id="l1">_</span> <span id="l2">_</span> <span id="l3">_</span> <span id="l4">_</span></h1>
+	</div>
+
+	<form onsubmit="randomWordLetters();return false">
+		<input type="text" id="textInput" placeholder="Vul letter in" maxlength="1" autocomplete="off">
+	</form>
+
+	<button id="resetButton" onclick="location.reload()">Opnieuw!</button>
+
+	<div id="images">
+		<img id="hangman" src="Hangman/hangman0.png">
+	</div>
+
+	<h4 id="guessedArray"></h4>
+	<h2 id="winText" class="winConfirm">Geraden!</h2>
+
+    <script type="text/javascript" src="game.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+</body>
+</html>

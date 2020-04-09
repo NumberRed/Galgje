@@ -1,0 +1,41 @@
+.container {
+	text-align: center;
+	font-family: Arial, Helvetica;
+	background-color: lightblue;
+	padding-top: 100px;
+	color: rgb(49, 49, 49);
+}
+
+h1 {
+	display: inline;
+	background-color: white;
+	padding: 10px;
+	text-shadow: 2px 2px 2px grey;
+	vertical-align: 30px;
+	border-radius: 10px;
+	border: 1px solid rgb(190, 190, 190);
+}
+
+h2 {
+	display: inline;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	vertical-align: 30px;
+	border-radius: 10px;
+	border: 1px solid rgb(190, 190, 190);
+}
+
+.winConfirm {
+	visibility: hidden;
+}
+
+button {
+	margin-top: 20px;
+	border-radius: 5px;
+}
+
+#images {
+	padding-top: 20px;
+	align-items: center;
+}
